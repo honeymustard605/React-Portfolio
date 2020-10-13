@@ -124,7 +124,7 @@ const Resume = () => {
                 <Typography variant="h2"
                  className={`${classes.timeLineYear} ${classes.timeLineItem}`}
                 >
-                    2013
+                    2018
                 </Typography>
                 <Box component="div" className={classes.timeLineItem}>
                     <Typography variant="h5" align="center" className={classes.subHeading}>
@@ -140,7 +140,39 @@ const Resume = () => {
                 <Typography variant="h2"
                  className={`${classes.timeLineYear} ${classes.timeLineItem}`}
                 >
-                    2014
+                    2019
+                </Typography>
+                <Box component="div" className={classes.timeLineItem}>
+                    <Typography variant="h5" align="center" className={classes.subHeading}>
+                    web design
+                    </Typography>
+                    <Typography variant="body1" align="center" style={{color: "tomato"}}>
+                    company name where worked
+                    </Typography>
+                    <Typography variant="subtitle1" align="center" style={{color: "tan"}}>
+                    Lorem
+                    </Typography>
+                </Box>
+                <Typography variant="h2"
+                 className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+                >
+                    2019
+                </Typography>
+                <Box component="div" className={classes.timeLineItem}>
+                    <Typography variant="h5" align="center" className={classes.subHeading}>
+                    web design
+                    </Typography>
+                    <Typography variant="body1" align="center" style={{color: "tomato"}}>
+                    company name where worked
+                    </Typography>
+                    <Typography variant="subtitle1" align="center" style={{color: "tan"}}>
+                    Lorem
+                    </Typography>
+                </Box>
+                <Typography variant="h2"
+                 className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+                >
+                    2020
                 </Typography>
                 <Box component="div" className={classes.timeLineItem}>
                     <Typography variant="h5" align="center" className={classes.subHeading}>
