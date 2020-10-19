@@ -22,6 +22,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+src/newemail.js
 
-src/email.js
-src/email.js
