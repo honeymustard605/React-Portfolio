@@ -15,7 +15,7 @@ import Navbar from './Navbar';
 import project1 from "../images/coolcontemp.jpg";
 import project2 from "../images/new comtempt.jpg";
 
-const useStyles =makeStyles({
+const useStyles = makeStyles({
     mainContainer: {
         background: "#233",
         height: "100%"

@@ -7,12 +7,12 @@ let nodemailer = require('nodemailer');
 app.use('/public', express.static(path.join(__dirname, 'public')));
 
 nodemailer.createTransport({
-  host: "mail.YOURDOMAIN.com", 
+  host: "smtp.gmail.com", 
     port: 587,
     secure: false,
   auth: {
-    user: "YOURUSERNAME",
-    pass: "YOURPASSWORD" 
+    user: "cook.oniel@gmail.com",
+    pass: "ekfytsdcffkqepce" 
   }
 });
 

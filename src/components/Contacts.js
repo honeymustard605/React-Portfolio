@@ -44,6 +44,20 @@ const InputField = withStyles({
 })(TextField);
 
 
+// class AllowanceClass extends Component{
+//     ...
+//     render() {
+//         const classes = this.props.classes;
+//         ...
+//     }
+// }
+// export default () => {
+//     const classes = useStyles();
+//     return (
+//         <AllowanceClass classes={classes} />
+//     )
+// }
+    
 
     const Contacts = () => {
 
@@ -56,7 +70,7 @@ const InputField = withStyles({
                 
                 <Grid container justify="center">
                 
-                    <Box component="form" className={classes.form} onSubmit={FormRequest.submitRequest}>
+                    <Box component="form" className={classes.form} onSubmit={FormRequest.submitRequest()}>
                         
                         <Typography variant="h5" style={{color: "tomato", textAlign: "center", textTransform: "uppercase"}}>
                         hire or contact me
@@ -81,4 +95,4 @@ const InputField = withStyles({
     };
 
 
-export default Contacts
+export default Contacts;
