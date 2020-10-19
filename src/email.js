@@ -12,7 +12,7 @@ nodemailer.createTransport({
     secure: false,
   auth: {
     user: "cook.oniel@gmail.com",
-    pass: "ekfytsdcffkqepce" 
+    //pass: "ekfytsdcffkqepce" 
   }
 });
 
