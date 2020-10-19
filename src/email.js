@@ -16,7 +16,7 @@ nodemailer.createTransport({
   }
 });
 
-// verifying the connection configuration
+// verifying the connection configurationn
 transporter.verify(function(error, success) {
   if (error) {
     console.log(error);
